@@ -1,0 +1,341 @@
+def create_diu_dataset():
+    diu_data = {
+        "questions": [
+            {
+                "question": "When was Daffodil International University (DIU) established?",
+                "answer": "DIU was established on January 24, 2002, with approval from the Ministry of Education under the Private University Act of 1992 and its amendment in 1998."
+            },
+            {
+                "question": "What is the mission of DIU?",
+                "answer": "The mission of DIU is to pursue research, learning, and teaching of international distinction for the benefit of society while preparing Bangladesh to respond to global economic challenges."
+            },
+            {
+                "question": "What are DIU’s core values?",
+                "answer": "DIU's core values include ethics, quality, leadership, innovation, diversity, and continuous learning."
+            },
+            {
+                "question": "What types of programs does DIU offer?",
+                "answer": "DIU offers bachelor's and master's programs in IT, Telecommunications, Engineering, Business, and other fields, with a focus on quality education and career preparation."
+            },
+            {
+                "question": "What is DIU’s vision?",
+                "answer": "DIU aims to be a globally recognized center of excellence through innovative, learner-centric, technology-driven education and impactful research."
+            },
+            {
+                "question": "What rankings has DIU achieved recently?",
+                "answer": "DIU ranked 1st in Bangladesh in THE Impact Rankings 2024, 2nd in QS World Sustainability Rankings 2024 among private universities, and within the top 1000 globally."
+            },
+            {
+                "question": "What notable initiatives are part of DIU?",
+                "answer": "DIU has initiatives like 'One Student One Laptop,' a fully WiFi-enabled campus, and a Virtual University System to enhance student learning and experience."
+            },
+            {
+                "question": "How does DIU support research?",
+                "answer": "DIU supports research with dedicated centers and emphasizes solutions to societal challenges, contributing to national development through knowledge and technology."
+            },
+            {
+                "question": "What are DIU’s achievements in international collaboration?",
+                "answer": "DIU collaborates with over 580 universities worldwide and is affiliated with organizations like AUAP, IAU, IEEE, and many others."
+            },
+            {
+                "question": "What facilities does DIU offer to students?",
+                "answer": "DIU provides state-of-the-art classrooms, labs, library facilities, on-campus medical services, and accommodations for both male and female students."
+            },
+            {
+                "question": "What outreach programs does DIU engage in?",
+                "answer": "DIU focuses on extension and outreach programs, addressing societal needs through innovative and inclusive efforts."
+            },
+            {
+                "question": "How many students are enrolled at DIU currently?",
+                "answer": "DIU started with 67 students and now has over 15,000 students enrolled across various programs."
+            },
+            {
+                "question": "What are the highlights of DIU’s rankings in sustainability?",
+                "answer": "DIU ranks 1st in Bangladesh and 200th globally in the UI-GreenMetric World University Rankings 2023, demonstrating its commitment to sustainability."
+            },
+            {
+                "question": "What research opportunities are available at DIU?",
+                "answer": "DIU emphasizes research in areas like IT, business, and social sciences, involving students and faculty to create impactful knowledge."
+            },
+            {
+                "question": "What is the 'One Student One Laptop' initiative?",
+                "answer": "The initiative provides every student with a laptop to enhance their ICT skills and foster a modern learning environment."
+            },
+            {
+                "question": "How does DIU promote gender inclusivity?",
+                "answer": "DIU encourages female enrollment and provides a supportive environment for women to prepare for leadership roles in various fields."
+            },
+            {
+                "question": "What international rankings recognize DIU?",
+                "answer": "DIU is recognized in QS World Rankings, THE Impact Rankings, and UI-GreenMetric Rankings for its academic excellence and sustainability efforts."
+            },
+            {
+                "question": "What are DIU’s library facilities?",
+                "answer": "The central library spans 90,000 square feet, offering printed books, e-books, journals, and an e-library for students and faculty."
+            },
+            {
+                "question": "What is the role of DIU’s Career Development Center?",
+                "answer": "The Career Development Center provides career counseling, job placement services, and organizes workshops, training, and job fairs for students."
+            },
+            {
+                "question": "What co-curricular activities are available at DIU?",
+                "answer": "DIU offers various activities through clubs like Debating Club, Robotics Club, and Sports Club, along with regular events like fairs and contests."
+            },
+            {
+                "question": "What tuition fee waivers are available for students with exceptional SSC and HSC results at DIU?",
+                "answer": "DIU offers waivers ranging from 10% to 75% based on the results, with Golden GPA-5 holders in both SSC and HSC eligible for the highest 75% waiver."
+            },
+            {
+                "question": "What is the eligibility criterion for female students to receive a quota waiver at DIU?",
+                "answer": "Female students admitted to undergraduate programs must achieve an HSC result of at least 4.00 to qualify for a 10% waiver."
+            },
+            {
+                "question": "What financial aid is available for international students enrolling in master’s programs at DIU?",
+                "answer": "International students with a CGPA between 3.50 and 4.00 in their bachelor's degree are eligible for tuition waivers of 30% to 50%."
+            },
+            {
+                "question": "What is the total program fee for a Bachelor of Business Administration (BBA) program at DIU?",
+                "answer": "The total program fee for the BBA program is $8,175, including tuition and other fees."
+            },
+            {
+                "question": "What digital learning tools does DIU provide to its students?",
+                "answer": "DIU provides tools such as Google Classroom, virtual university systems, and e-library access for enhanced digital learning."
+            },
+            {
+                "question": "When was Daffodil International University (DIU) established?",
+                "answer": "DIU was established on January 24, 2002, with approval from the Ministry of Education under the Private University Act of 1992 and its amendment in 1998."
+            },
+            {
+                "question": "What is the mission of DIU?",
+                "answer": "The mission of DIU is to pursue research, learning, and teaching of international distinction for the benefit of society while preparing Bangladesh to respond to global economic challenges."
+            },
+            {
+                "question": "What are DIU’s core values?",
+                "answer": "DIU's core values include ethics, quality, leadership, innovation, diversity, and continuous learning."
+            },
+            {
+                "question": "What types of programs does DIU offer?",
+                "answer": "DIU offers bachelor's and master's programs in IT, Telecommunications, Engineering, Business, and other fields, with a focus on quality education and career preparation."
+            },
+            {
+                "question": "What is DIU’s vision?",
+                "answer": "DIU aims to be a globally recognized center of excellence through innovative, learner-centric, technology-driven education and impactful research."
+            },
+            {
+                "question": "What rankings has DIU achieved recently?",
+                "answer": "DIU ranked 1st in Bangladesh in THE Impact Rankings 2024, 2nd in QS World Sustainability Rankings 2024 among private universities, and within the top 1000 globally."
+            },
+            {
+                "question": "What notable initiatives are part of DIU?",
+                "answer": "DIU has initiatives like 'One Student One Laptop,' a fully WiFi-enabled campus, and a Virtual University System to enhance student learning and experience."
+            },
+            {
+                "question": "How does DIU support research?",
+                "answer": "DIU supports research with dedicated centers and emphasizes solutions to societal challenges, contributing to national development through knowledge and technology."
+            },
+            {
+                "question": "What are DIU’s achievements in international collaboration?",
+                "answer": "DIU collaborates with over 580 universities worldwide and is affiliated with organizations like AUAP, IAU, IEEE, and many others."
+            },
+            {
+                "question": "What facilities does DIU offer to students?",
+                "answer": "DIU provides state-of-the-art classrooms, labs, library facilities, on-campus medical services, and accommodations for both male and female students."
+            },
+            {
+                "question": "What outreach programs does DIU engage in?",
+                "answer": "DIU focuses on extension and outreach programs, addressing societal needs through innovative and inclusive efforts."
+            },
+            {
+                "question": "How many students are enrolled at DIU currently?",
+                "answer": "DIU started with 67 students and now has over 15,000 students enrolled across various programs."
+            },
+            {
+                "question": "What are the highlights of DIU’s rankings in sustainability?",
+                "answer": "DIU ranks 1st in Bangladesh and 200th globally in the UI-GreenMetric World University Rankings 2023, demonstrating its commitment to sustainability."
+            },
+            {
+                "question": "What research opportunities are available at DIU?",
+                "answer": "DIU emphasizes research in areas like IT, business, and social sciences, involving students and faculty to create impactful knowledge."
+            },
+            {
+                "question": "What is the 'One Student One Laptop' initiative?",
+                "answer": "The initiative provides every student with a laptop to enhance their ICT skills and foster a modern learning environment."
+            },
+            {
+                "question": "How does DIU promote gender inclusivity?",
+                "answer": "DIU encourages female enrollment and provides a supportive environment for women to prepare for leadership roles in various fields."
+            },
+            {
+                "question": "What international rankings recognize DIU?",
+                "answer": "DIU is recognized in QS World Rankings, THE Impact Rankings, and UI-GreenMetric Rankings for its academic excellence and sustainability efforts."
+            },
+            {
+                "question": "What are DIU’s library facilities?",
+                "answer": "The central library spans 90,000 square feet, offering printed books, e-books, journals, and an e-library for students and faculty."
+            },
+            {
+                "question": "What is the role of DIU’s Career Development Center?",
+                "answer": "The Career Development Center provides career counseling, job placement services, and organizes workshops, training, and job fairs for students."
+            },
+            {
+                "question": "What co-curricular activities are available at DIU?",
+                "answer": "DIU offers various activities through clubs like Debating Club, Robotics Club, and Sports Club, along with regular events like fairs and contests."
+            },
+            {
+                "question": "What tuition fee waivers are available for students with exceptional SSC and HSC results at DIU?",
+                "answer": "DIU offers waivers ranging from 10% to 75% based on the results, with Golden GPA-5 holders in both SSC and HSC eligible for the highest 75% waiver."
+            },
+            {
+                "question": "What is the eligibility criterion for female students to receive a quota waiver at DIU?",
+                "answer": "Female students admitted to undergraduate programs must achieve an HSC result of at least 4.00 to qualify for a 10% waiver."
+            },
+            {
+                "question": "What financial aid is available for international students enrolling in master’s programs at DIU?",
+                "answer": "International students with a CGPA between 3.50 and 4.00 in their bachelor's degree are eligible for tuition waivers of 30% to 50%."
+            },
+            {
+                "question": "What is the total program fee for a Bachelor of Business Administration (BBA) program at DIU?",
+                "answer": "The total program fee for the BBA program is $8,175, including tuition and other fees."
+            },
+            {
+                "question": "What digital learning tools does DIU provide to its students?",
+                "answer": "DIU provides tools such as Google Classroom, virtual university systems, and e-library access for enhanced digital learning."
+            },
+            {
+                "question": "What measures has DIU taken to enhance cybersecurity education?",
+                "answer": "DIU offers specialized courses in cybersecurity, ethical hacking, and cyber law, along with practical training labs for hands-on experience."
+            },
+            {
+                "question": "How does DIU foster entrepreneurship among students?",
+                "answer": "DIU has an innovation lab, incubation center, and regular entrepreneurship programs to support student startups and business ventures."
+            },
+            {
+                "question": "What international exchange opportunities does DIU provide?",
+                "answer": "DIU facilitates exchange programs with partner universities, allowing students to gain international exposure and academic credits."
+            },
+            {
+                "question": "What are DIU’s green campus initiatives?",
+                "answer": "DIU focuses on solar energy, waste recycling, and tree plantation programs as part of its commitment to sustainability."
+            },
+            {
+                "question": "How does DIU ensure the mental well-being of students?",
+                "answer": "DIU has a counseling center with professional psychologists to support students' mental health and well-being."
+            },
+            {
+                "question": "What sports facilities are available at DIU?",
+                "answer": "DIU offers facilities for football, cricket, basketball, table tennis, and an annual sports day to promote physical fitness."
+            },
+            {
+                "question": "What scholarships are available for outstanding academic performance at DIU?",
+                "answer": "DIU offers merit-based scholarships covering up to 100% tuition fees for students with exceptional academic records."
+            },
+            {
+                "question": "How does DIU engage with alumni?",
+                "answer": "DIU has an active alumni association, organizing regular meetups, mentorship programs, and networking events for graduates."
+            },
+            {
+                "question": "What cultural programs does DIU organize?",
+                "answer": "DIU hosts cultural festivals, music competitions, and art exhibitions to celebrate diversity and student creativity."
+            },
+            {
+                "question": "What opportunities for leadership development does DIU provide?",
+                "answer": "DIU offers leadership workshops, student council participation, and community service projects to enhance leadership skills."
+            },
+            {
+                "question": "How does DIU support students with disabilities?",
+                "answer": "DIU provides accessible facilities, specialized support services, and scholarships for students with disabilities."
+            },
+            {
+                "question": "What is DIU’s contribution to the IT sector in Bangladesh?",
+                "answer": "DIU has produced skilled IT professionals, hosted tech events, and collaborated with industry leaders to advance Bangladesh's IT sector."
+            },
+            {
+                "question": "What global partnerships does DIU have?",
+                "answer": "DIU partners with international organizations like UNESCO, AIESEC, and the British Council to promote global education."
+            },
+            {
+                "question": "What is DIU’s role in promoting sustainability education?",
+                "answer": "DIU integrates sustainability topics into its curriculum and conducts awareness campaigns on environmental issues."
+            },
+            {
+                "question": "What advanced research facilities are available at DIU?",
+                "answer": "DIU has state-of-the-art research labs in fields like biotechnology, robotics, and artificial intelligence."
+            },
+            {
+                "question": "What community service initiatives does DIU undertake?",
+                "answer": "DIU organizes blood donation drives, free medical camps, and literacy programs as part of its social responsibility."
+            },
+            {
+                "question": "What are DIU’s achievements in robotics?",
+                "answer": "DIU’s Robotics Club has won national and international competitions, showcasing innovation and technical skills."
+            },
+            {
+                "question": "How does DIU promote innovation in education?",
+                "answer": "DIU adopts a learner-centric approach, using virtual reality, gamified learning, and project-based education."
+            },
+            {
+                "question": "What is DIU’s focus on healthcare education?",
+                "answer": "DIU offers programs in public health, nursing, and medical sciences, with training in advanced healthcare facilities."
+            },
+            {
+                "question": "What are DIU’s facilities for international students?",
+                "answer": "DIU provides international students with dedicated accommodation, cultural orientation programs, and language support."
+            }
+        {
+            "question": "What is DIU’s policy on scholarships for underprivileged students?",
+            "answer": "DIU provides full or partial scholarships to underprivileged students based on academic merit and financial need, ensuring equal opportunities for quality education."
+        },
+        {
+            "question": "What is the purpose of DIU’s Entrepreneurship Development Center (EDC)?",
+            "answer": "The EDC helps students and alumni develop entrepreneurial skills by providing mentorship, training programs, and incubation facilities for startups."
+        },
+        {
+            "question": "What measures does DIU take for campus security?",
+            "answer": "DIU ensures campus safety with 24/7 security personnel, CCTV surveillance, and strict access control at all entry points."
+        },
+        {
+            "question": "How does DIU support students in gaining international exposure?",
+            "answer": "DIU offers exchange programs, international internships, and participation in global conferences to provide students with international exposure."
+        },
+        {
+            "question": "What student support services are available at DIU?",
+            "answer": "DIU offers counseling services, academic advising, health care, and career guidance to ensure students’ holistic development."
+        },
+        {
+            "question": "What environmental initiatives has DIU implemented?",
+            "answer": "DIU promotes sustainability through initiatives like tree plantation drives, energy-efficient buildings, and waste management programs."
+        },
+        {
+            "question": "How does DIU assist students in acquiring practical skills?",
+            "answer": "DIU integrates practical learning through industry visits, internships, project-based assignments, and collaboration with corporate partners."
+        },
+        {
+            "question": "What sports facilities are available at DIU?",
+            "answer": "DIU offers facilities for cricket, football, basketball, table tennis, and indoor games, encouraging students to stay active and engaged."
+        },
+        {
+            "question": "What unique features does DIU’s permanent campus offer?",
+            "answer": "DIU’s permanent campus spans 150 acres and features modern infrastructure, eco-friendly designs, and a scenic environment for learning."
+        },
+        {
+            "question": "What is DIU’s alumni network like?",
+            "answer": "DIU’s alumni network consists of over 30,000 graduates working in various industries worldwide, fostering collaboration and career opportunities."
+        },
+        {
+            "question": "What opportunities are available for DIU students in robotics?",
+            "answer": "DIU’s Robotics Club organizes workshops, competitions, and hands-on training in robotics, AI, and automation technologies."
+        },
+        {
+            "question": "How does DIU engage students in social responsibility?",
+            "answer": "DIU organizes community service programs, awareness campaigns, and volunteer activities to instill a sense of social responsibility in students."
+        },
+        {
+            "question": "What is DIU’s approach to digital transformation?",
+            "answer": "DIU adopts advanced technologies like AI, cloud computing, and virtual platforms to enhance administrative efficiency and learning experiences."
+        },
+        {
+            "question": "How does DIU prepare students for the Fourth Industrial Revolution?",
+            "answer": "DIU offers courses in AI, data science, IoT, and cybersecurity, equipping students with skills for Industry 4.0 challenges."
+        }
+        ]
+    }
